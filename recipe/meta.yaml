@@ -27,6 +27,7 @@ requirements:
     - cloudflare
     - cookiecutter
     - pydantic
+    - pynacl
     - pyyaml
 
 test:
