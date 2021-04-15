@@ -19,11 +19,12 @@ build:
 
 requirements:
   host:
-    - python >=3,<4.0
+    - python >=3.6,<4.0
     - pip
   run:
-    - python >=3,<4.0
+    - python >=3.6,<4.0
     - auth0-python
+    - bcrypt
     - cloudflare
     - cookiecutter
     - pydantic
