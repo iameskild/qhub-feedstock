@@ -29,7 +29,7 @@ requirements:
     - cookiecutter
     - pydantic
     - pynacl
-    - pyyaml
+    - ruamel.yaml
 
 test:
   imports:
