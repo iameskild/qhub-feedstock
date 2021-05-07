@@ -1,5 +1,5 @@
 {% set name = "qhub" %}
-{% set version = "0.3.9" %}
+{% set version = "0.3.11" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/qhub-{{ version }}.tar.gz
-  sha256: 99277fdcd5c185979641e93f398a1bbcfaba40df3e5822d97976ab0433498458
+  sha256: fc8e0baabfb7528eb50f6344c24a60a51ae2f92b707471591a51264df118841f
 
 build:
   number: 0
