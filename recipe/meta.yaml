@@ -26,7 +26,8 @@ requirements:
     - auth0-python
     - bcrypt
     - cloudflare
-    - cookiecutter
+    - cookiecutter ==1.7.2
+    - gitignore-parser ==0.0.8
     - pydantic
     - pynacl
     - ruamel.yaml
