@@ -118,4 +118,5 @@ Feedstock Maintainers
 =====================
 
 * [@ocefpaf](https://github.com/ocefpaf/)
+* [@tylerpotts](https://github.com/tylerpotts/)
 
