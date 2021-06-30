@@ -117,5 +117,10 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@aktech](https://github.com/aktech/)
+* [@costrouc](https://github.com/costrouc/)
+* [@danlester](https://github.com/danlester/)
 * [@ocefpaf](https://github.com/ocefpaf/)
+* [@tylerpotts](https://github.com/tylerpotts/)
+* [@viniciusdc](https://github.com/viniciusdc/)
 

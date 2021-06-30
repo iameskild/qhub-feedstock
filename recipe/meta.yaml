@@ -11,7 +11,7 @@ source:
   sha256: fc8e0baabfb7528eb50f6344c24a60a51ae2f92b707471591a51264df118841f
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - qhub = qhub.__main__:main
@@ -51,3 +51,8 @@ about:
 extra:
   recipe-maintainers:
     - ocefpaf
+    - tylerpotts
+    - costrouc
+    - danlester
+    - aktech
+    - viniciusdc
