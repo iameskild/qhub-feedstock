@@ -27,7 +27,6 @@ requirements:
     - bcrypt
     - cloudflare
     - cookiecutter ==1.7.2
-    - cookiecutter==1.7.2
     - gitignore-parser ==0.0.8
     - pydantic
     - pynacl
