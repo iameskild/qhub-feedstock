@@ -1,5 +1,5 @@
 {% set name = "qhub" %}
-{% set version = "0.3.11" %}
+{% set version = "0.3.12" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/qhub-{{ version }}.tar.gz
-  sha256: fc8e0baabfb7528eb50f6344c24a60a51ae2f92b707471591a51264df118841f
+  sha256: bd9726ab9011810603f625a809d83e41c69a08d1685ebb5387c81faae41c1463
 
 build:
   number: 1
@@ -26,7 +26,8 @@ requirements:
     - auth0-python
     - bcrypt
     - cloudflare
-    - cookiecutter
+    - cookiecutter ==1.7.2
+    - gitignore-parser ==0.0.8
     - pydantic
     - pynacl
     - ruamel.yaml
