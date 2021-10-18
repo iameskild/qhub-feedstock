@@ -123,4 +123,5 @@ Feedstock Maintainers
 * [@ocefpaf](https://github.com/ocefpaf/)
 * [@tylerpotts](https://github.com/tylerpotts/)
 * [@viniciusdc](https://github.com/viniciusdc/)
+* [@iameskild](https://github.com/iameskild/)
 
