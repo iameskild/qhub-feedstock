@@ -120,8 +120,8 @@ Feedstock Maintainers
 * [@aktech](https://github.com/aktech/)
 * [@costrouc](https://github.com/costrouc/)
 * [@danlester](https://github.com/danlester/)
+* [@iameskild](https://github.com/iameskild/)
 * [@ocefpaf](https://github.com/ocefpaf/)
 * [@tylerpotts](https://github.com/tylerpotts/)
 * [@viniciusdc](https://github.com/viniciusdc/)
-* [@iameskild](https://github.com/iameskild/)
 
