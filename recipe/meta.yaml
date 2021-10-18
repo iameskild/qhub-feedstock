@@ -11,7 +11,7 @@ source:
   sha256: bd9726ab9011810603f625a809d83e41c69a08d1685ebb5387c81faae41c1463
 
 build:
-  number: 1
+  number: 2
   noarch: python
   entry_points:
     - qhub = qhub.__main__:main
@@ -57,3 +57,4 @@ extra:
     - danlester
     - aktech
     - viniciusdc
+    - iameskild
