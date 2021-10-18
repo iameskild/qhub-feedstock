@@ -32,7 +32,8 @@ requirements:
     - pynacl
     - ruamel.yaml
     - azure-identity ==1.6.1
-    - azure-mgmt-containerservice ==16.2.0
+    - pip:
+      - azure-mgmt-containerservice ==16.2.0
 
 test:
   imports:
