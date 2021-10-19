@@ -31,6 +31,7 @@ requirements:
     - pydantic
     - pynacl
     - ruamel.yaml
+    - portalocker <2.0
     - azure-identity ==1.6.1
     - azure-mgmt-containerservice ==16.2.0
 
