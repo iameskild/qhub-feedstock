@@ -32,7 +32,7 @@ requirements:
     - pynacl
     - ruamel.yaml
     - azure-identity ==1.6.1
-    - microsoft::azure-mgmt
+    - azure-mgmt-containerservice ==16.2.0
 
 test:
   imports:
