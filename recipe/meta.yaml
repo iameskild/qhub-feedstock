@@ -19,19 +19,19 @@ build:
 
 requirements:
   host:
-    - python >=3.6,<4.0
+    - python >=3.7,<4.0
     - pip
   run:
-    - python >=3.6,<4.0
+    - python >=3.7,<4.0
     - auth0-python
     - bcrypt
+    - boto3
     - cloudflare
-    - cookiecutter ==1.7.2
     - gitignore-parser ==0.0.8
     - pydantic
     - pynacl
+    - python-keycloak
     - ruamel.yaml
-    - portalocker <2.0
     - azure-identity ==1.6.1
     - azure-mgmt-containerservice ==16.2.0
 
