@@ -1,5 +1,5 @@
 {% set name = "qhub" %}
-{% set version = "0.3.14" %}
+{% set version = "0.4.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/qhub-{{ version }}.tar.gz
-  sha256: ef1ea008ac1edf43d125539f7b7432eeb342dbd3339f44787411e19c8de94fa1
+  sha256: 667459f84c4159e1104a809518d53d2906888b2dcece83a377f16685bbcdfe9b
 
 build:
   number: 0
@@ -19,21 +19,23 @@ build:
 
 requirements:
   host:
-    - python >=3.6,<4.0
+    - python >=3.7,<4.0
     - pip
   run:
-    - python >=3.6,<4.0
+    - python >=3.7,<4.0
     - auth0-python
     - bcrypt
+    - boto3
     - cloudflare
-    - cookiecutter ==1.7.2
     - gitignore-parser ==0.0.8
     - pydantic
     - pynacl
+    - python-keycloak
+    - python-kubernetes
     - ruamel.yaml
-    - portalocker <2.0
     - azure-identity ==1.6.1
     - azure-mgmt-containerservice ==16.2.0
+    - importlib_metadata
 
 test:
   imports:
