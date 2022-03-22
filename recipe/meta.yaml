@@ -11,7 +11,7 @@ source:
   sha256: 667459f84c4159e1104a809518d53d2906888b2dcece83a377f16685bbcdfe9b
 
 build:
-  number: 1
+  number: 2
   noarch: python
   entry_points:
     - qhub = qhub.__main__:main
